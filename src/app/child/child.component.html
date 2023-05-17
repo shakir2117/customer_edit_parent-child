@@ -2,7 +2,7 @@
 <form [formGroup]="editForm" novalidate>
   <div class="col">
     <div class="row">
-      <mat-form-field class="example-full-width">
+      <mat-form-field class="example-full-width" appearance="outline">
         <mat-label>name:
         </mat-label>
         <input type="name" #name matInput formControlName="name"  placeholder="xyz">
@@ -13,7 +13,7 @@
 
     </div>
     <div class="row">
-      <mat-form-field class="example-full-width">
+      <mat-form-field class="example-full-width" appearance="outline">
         <mat-label>Email:</mat-label>
         <input type="email" #email matInput formControlName="email" >
         <mat-error *ngIf="editForm.controls['email'].hasError('required')">
@@ -22,15 +22,14 @@
       </mat-form-field>
     </div>
     <div class="row">
-      <mat-form-field class="example-full-width">
+      <mat-form-field class="example-full-width" appearance="outline">
         <mat-label>Phone</mat-label>
         <input type="phone" #phone matInput formControlName="phone">
         <mat-error *ngIf="editForm.controls['phone'].hasError('required')">
-          phone is <strong>required</strong>
+          phone is <strong>required</strong>  
         </mat-error>
       </mat-form-field>
     </div>
   </div>
-  <!-- <button type="submit" mat-raised-button (click)="onSubmit()">Save</button> -->
-  <button type="submit" mat-raised-button (click)="updateCustomer.emit(editForm.value)">Save</button>
+  <button type="submit" mat-raised-button color="warn" (click)="updateCustomer.emit(editForm.value)">Save</button>
 </form>

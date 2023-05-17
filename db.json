@@ -1,64 +1,304 @@
 {
   "Customer": [
     {
-      "name": "shakir",
-      "email": "shakirchoudhary2117@gmail.com",
-      "phone": "09323157527",
+      "name": "will Smith",
+      "email": "will.smith@example.com",
+      "phone": "+1 666-123-4567",
       "id": 1
     },
     {
-      "name": "priya sdjkfj",
-      "email": "priya.singh@example.com",
-      "phone": "+91 555-234-5678",
+      "name": "Jane Doe",
+      "email": "jane.doe@example.com",
+      "phone": "+1 555-234-5678",
       "id": 2
     },
     {
-      "name": "jkhdjkhah",
-      "email": "amit.patel@example.com",
-      "phone": "+91 555-345-6789",
+      "name": "Bob Johnson",
+      "email": "bob.johnson@example.com",
+      "phone": "+1 555-345-6789",
       "id": 3
     },
     {
-      "name": "Sneha",
-      "email": "sneha.sharma@example.com",
-      "phone": "+91 555-456-7890",
+      "name": "Emily Davis",
+      "email": "emily.davis@example.com",
+      "phone": "+1 555-456-7890",
       "id": 4
     },
     {
-      "name": "samiya mulla",
-      "email": "sam8315087@gmail.com",
-      "phone": "9082632609",
+      "name": "Michael Wilson",
+      "email": "michael.wilson@example.com",
+      "phone": "+1 555-567-8901",
       "id": 5
     },
     {
-      "id": 6,
-      "name": "Neha Gupta",
-      "email": "neha.gupta@example.com",
-      "phone": "+91 555-678-9012"
+      "name": "Sarah Thompson",
+      "email": "sarah.thompson@example.com",
+      "phone": "+1 555-678-9012",
+      "id": 6
     },
     {
-      "name": "Rahul gogs",
-      "email": "rahul.sharma@email.com",
-      "phone": "+91 723478623",
+      "name": "David Brown",
+      "email": "david.brown@example.com",
+      "phone": "+1 555-789-0123",
       "id": 7
     },
     {
-      "id": 8,
-      "name": "Anjali Patel",
-      "email": "anjali.patel@example.com",
-      "phone": "+91 555-890-1234"
+      "name": "Jessica Lee",
+      "email": "jessica.lee@example.com",
+      "phone": "+1 555-890-1234",
+      "id": 8
     },
     {
-      "id": 9,
-      "name": "Alok Verma",
-      "email": "alok.verma@example.com",
-      "phone": "+91 555-901-2345"
+      "name": "Christopher Green",
+      "email": "christopher.green@example.com",
+      "phone": "+1 555-901-2345",
+      "id": 9
     },
     {
-      "name": "Sarika chauhan",
-      "email": "sarika.singh@example.com",
-      "phone": "+91 555-012-3456",
+      "name": "Amanda Baker",
+      "email": "amanda.baker@example.com",
+      "phone": "+1 555-012-3456",
       "id": 10
+    },
+    {
+      "name": "Mark Davis",
+      "email": "mark.davis@example.com",
+      "phone": "+1 555-123-4567",
+      "id": 11
+    },
+    {
+      "name": "Stephanie Wilson",
+      "email": "stephanie.wilson@example.com",
+      "phone": "+1 555-234-5678",
+      "id": 12
+    },
+    {
+      "name": "Kevin Johnson",
+      "email": "kevin.johnson@example.com",
+      "phone": "+1 555-345-6789",
+      "id": 13
+    },
+    {
+      "name": "Melissa Brown",
+      "email": "melissa.brown@example.com",
+      "phone": "+1 555-456-7890",
+      "id": 14
+    },
+    {
+      "name": "Andrew Davis",
+      "email": "andrew.davis@example.com",
+      "phone": "+1 555-567-8901",
+      "id": 15
+    },
+    {
+      "name": "Lauren Thompson",
+      "email": "lauren.thompson@example.com",
+      "phone": "+1 555-678-9012",
+      "id": 16
+    },
+    {
+      "name": "Matthew Lee",
+      "email": "matthew.lee@example.com",
+      "phone": "+1 555-789-0123",
+      "id": 17
+    },
+    {
+      "name": "Rachel Green",
+      "email": "rachel.green@example.com",
+      "phone": "+1 555-890-1234",
+      "id": 18
+    },
+    {
+      "name": "Jonathan Baker",
+      "email": "jonathan.baker@example.com",
+      "phone": "+1 555-901-2345",
+      "id": 19
+    },
+    {
+      "name": "Olivia Davis",
+      "email": "olivia.davis@example.com",
+      "phone": "+1 555-012-3456",
+      "id": 20
+    },
+    {
+      "name": "William Smith",
+      "email": "william.smith@example.com",
+      "phone": "+1 555-123-4567",
+      "id": 21
+    },
+    {
+      "name": "Elizabeth Doe",
+      "email": "elizabeth.doe@example.com",
+      "phone": "+1 555-234-5678",
+      "id": 22
+    },
+    {
+      "name": "Thomas Johnson",
+      "email": "thomas.johnson@example.com",
+      "phone": "+1 555-345-6789",
+      "id": 23
+    },
+    {
+      "name": "Victoria Davis",
+      "email": "victoria.davis@example.com",
+      "phone": "+1 555-456-7890",
+      "id": 24
+    },
+    {
+      "name": "Christopher Wilson",
+      "email": "christopher.wilson@example.com",
+      "phone": "+1 555-567-8901",
+      "id": 25
+    },
+    {
+      "name": "Emily Thompson",
+      "email": "emily.thompson@example.com",
+      "phone": "+1 555-678-9012",
+      "id": 26
+    },
+    {
+      "name": "Daniel Lee",
+      "email": "daniel.lee@example.com",
+      "phone": "+1 555-789-0123",
+      "id": 27
+    },
+    {
+      "name": "Ashley Green",
+      "email": "ashley.green@example.com",
+      "phone": "+1 555-890-1234",
+      "id": 28
+    },
+    {
+      "name": "Ryan Baker",
+      "email": "ryan.baker@example.com",
+      "phone": "+1 555-901-2345",
+      "id": 29
+    },
+    {
+      "name": "Sophia Davis",
+      "email": "sophia.davis@example.com",
+      "phone": "+1 555-012-3456",
+      "id": 30
+    },
+    {
+      "name": "Jacob Smith",
+      "email": "jacob.smith@example.com",
+      "phone": "+1 555-123-4567",
+      "id": 31
+    },
+    {
+      "name": "Isabella Doe",
+      "email": "isabella.doe@example.com",
+      "phone": "+1 555-234-5678",
+      "id": 32
+    },
+    {
+      "name": "Ethan Johnson",
+      "email": "ethan.johnson@example.com",
+      "phone": "+1 555-345-6789",
+      "id": 33
+    },
+    {
+      "name": "Mia Davis",
+      "email": "mia.davis@example.com",
+      "phone": "+1 555-456-7890",
+      "id": 34
+    },
+    {
+      "name": "Alexander Wilson",
+      "email": "alexander.wilson@example.com",
+      "phone": "+1 555-567-8901",
+      "id": 35
+    },
+    {
+      "name": "Chloe Thompson",
+      "email": "chloe.thompson@example.com",
+      "phone": "+1 555-678-9012",
+      "id": 36
+    },
+    {
+      "name": "William Lee",
+      "email": "william.lee@example.com",
+      "phone": "+1 555-789-0123",
+      "id": 37
+    },
+    {
+      "name": "Avery Green",
+      "email": "avery.green@example.com",
+      "phone": "+1 555-890-1234",
+      "id": 38
+    },
+    {
+      "name": "Benjamin Baker",
+      "email": "benjamin.baker@example.com",
+      "phone": "+1 555-901-2345",
+      "id": 39
+    },
+    {
+      "name": "Evelyn Davis",
+      "email": "evelyn.davis@example.com",
+      "phone": "+1 555-012-3456",
+      "id": 40
+    },
+    {
+      "name": "James Smith",
+      "email": "james.smith@example.com",
+      "phone": "+1 555-123-4567",
+      "id": 41
+    },
+    {
+      "name": "Sophie Doe",
+      "email": "sophie.doe@example.com",
+      "phone": "+1 555-234-5678",
+      "id": 42
+    },
+    {
+      "name": "William Johnson",
+      "email": "william.johnson@example.com",
+      "phone": "+1 555-345-6789",
+      "id": 43
+    },
+    {
+      "name": "Ava Davis",
+      "email": "ava.davis@example.com",
+      "phone": "+1 555-456-7890",
+      "id": 44
+    },
+    {
+      "name": "Daniel Wilson",
+      "email": "daniel.wilson@example.com",
+      "phone": "+1 555-567-8901",
+      "id": 45
+    },
+    {
+      "name": "Grace Thompson",
+      "email": "grace.thompson@example.com",
+      "phone": "+1 555-678-9012",
+      "id": 46
+    },
+    {
+      "name": "Joseph Lee",
+      "email": "joseph.lee@example.com",
+      "phone": "+1 555-789-0123",
+      "id": 47
+    },
+    {
+      "name": "Madison Green",
+      "email": "madison.green@example.com",
+      "phone": "+1 555-890-1234",
+      "id": 48
+    },
+    {
+      "name": "Samuel Baker",
+      "email": "samuel.baker@example.com",
+      "phone": "+1 555-901-2345",
+      "id": 49
+    },
+    {
+      "name": "Avery Davis",
+      "email": "avery.davis@example.com",
+      "phone": "+1 555-012-3456",
+      "id": 50
     }
   ]
 }

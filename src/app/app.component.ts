@@ -3,8 +3,6 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { CustomerService } from './customer.service';
 import { HttpClient } from '@angular/common/http';
-
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -14,12 +12,12 @@ export class AppComponent {
   title = 'customer-app';
   customers: any =[];
   
-
   constructor(private router: Router,private customer: CustomerService, private http: HttpClient) {}
-
+  
   ngOnInit(): void {
     this.customer.getCustomer().subscribe(data => {
       this.customers = data;
+      console.log(this.customers);
     });
   
   }
