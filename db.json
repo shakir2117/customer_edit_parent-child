@@ -1,34 +1,34 @@
 {
   "Customer": [
     {
-      "id": 1,
-      "name": "Rajesh Kumar",
-      "email": "rajesh.kumar@example.com",
-      "phone": "+91 555-123-4567"
+      "name": "shakir",
+      "email": "shakirchoudhary2117@gmail.com",
+      "phone": "09323157527",
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "Priya Singh",
+      "name": "priya sdjkfj",
       "email": "priya.singh@example.com",
-      "phone": "+91 555-234-5678"
+      "phone": "+91 555-234-5678",
+      "id": 2
     },
     {
-      "id": 3,
-      "name": "Amit Patel",
+      "name": "jkhdjkhah",
       "email": "amit.patel@example.com",
-      "phone": "+91 555-345-6789"
+      "phone": "+91 555-345-6789",
+      "id": 3
     },
     {
-      "id": 4,
-      "name": "Sneha Sharma",
+      "name": "Sneha",
       "email": "sneha.sharma@example.com",
-      "phone": "+91 555-456-7890"
+      "phone": "+91 555-456-7890",
+      "id": 4
     },
     {
-      "id": 5,
-      "name": "Vikram Singh",
-      "email": "vikram.singh@example.com",
-      "phone": "+91 555-567-8901"
+      "name": "samiya mulla",
+      "email": "sam8315087@gmail.com",
+      "phone": "9082632609",
+      "id": 5
     },
     {
       "id": 6,
@@ -37,10 +37,10 @@
       "phone": "+91 555-678-9012"
     },
     {
-      "id": 7,
-      "name": "Rahul Sharma",
-      "email": "rahul.sharma@example.com",
-      "phone": "+91 555-789-0123"
+      "name": "Rahul gogs",
+      "email": "rahul.sharma@email.com",
+      "phone": "+91 723478623",
+      "id": 7
     },
     {
       "id": 8,
@@ -55,10 +55,10 @@
       "phone": "+91 555-901-2345"
     },
     {
-      "id": 10,
-      "name": "Sarika Singh",
+      "name": "Sarika chauhan",
       "email": "sarika.singh@example.com",
-      "phone": "+91 555-012-3456"
+      "phone": "+91 555-012-3456",
+      "id": 10
     }
   ]
 }

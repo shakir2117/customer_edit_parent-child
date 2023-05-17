@@ -1,16 +1,36 @@
 <h2>Edit Customer</h2>
-    <form (submit)="onSubmit()">
-      <div>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" value="{{customer.name}}" required>
-      </div>
-      <div>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" value="{{customer.email}}" required>
-      </div>
-      <div>
-        <label for="phone">Phone:</label>
-        <input type="tel" id="phone"  name="phone" value="{{customer.phone}}" required>
-      </div>
-      <button type="submit">Save</button>
-    </form>
+<form [formGroup]="editForm" novalidate>
+  <div class="col">
+    <div class="row">
+      <mat-form-field class="example-full-width">
+        <mat-label>name:
+        </mat-label>
+        <input type="name" #name matInput formControlName="name"  placeholder="xyz">
+        <mat-error *ngIf="editForm.controls['name'].hasError('required')">
+          name is <strong>required</strong>
+        </mat-error>
+      </mat-form-field>
+
+    </div>
+    <div class="row">
+      <mat-form-field class="example-full-width">
+        <mat-label>Email:</mat-label>
+        <input type="email" #email matInput formControlName="email" >
+        <mat-error *ngIf="editForm.controls['email'].hasError('required')">
+          Email is <strong>required</strong>
+        </mat-error>
+      </mat-form-field>
+    </div>
+    <div class="row">
+      <mat-form-field class="example-full-width">
+        <mat-label>Phone</mat-label>
+        <input type="phone" #phone matInput formControlName="phone">
+        <mat-error *ngIf="editForm.controls['phone'].hasError('required')">
+          phone is <strong>required</strong>
+        </mat-error>
+      </mat-form-field>
+    </div>
+  </div>
+  <!-- <button type="submit" mat-raised-button (click)="onSubmit()">Save</button> -->
+  <button type="submit" mat-raised-button (click)="updateCustomer.emit(editForm.value)">Save</button>
+</form>

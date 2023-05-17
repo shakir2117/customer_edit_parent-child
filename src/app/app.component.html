@@ -1,3 +1,4 @@
+<app-child [customer]="cusedit" (updateCustomer)="onSubmit($event)"></app-child>
 <h2>Customer List</h2>
 
 <table>
@@ -8,12 +9,11 @@
     <th>Contact</th>
     <th>Edit</th>
   </tr>
-  <tr *ngFor="let customer of customers">
-    <td>{{ customer.id }}</td>
-    <td>{{ customer.name }}</td>
-    <td>{{ customer.email }}</td>
-    <td>{{customer.phone}}</td>
-    <td><button (click)="editCustomer(customer)">Edit</button></td>
+  <tr *ngFor="let custom of customers">
+    <td>{{ custom.id }}</td>
+    <td>{{ custom.name }}</td>
+    <td>{{ custom.email }}</td>
+    <td>{{custom.phone}}</td>
+    <td><button (click)="editCustomer(custom)">Edit</button></td>
   </tr>
 </table>
-<app-child [customer]="cusedit"></app-child>

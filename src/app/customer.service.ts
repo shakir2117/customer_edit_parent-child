@@ -7,7 +7,6 @@ import { Observable } from 'rxjs';
 })
 export class CustomerService {
   url = 'http://localhost:3000/Customer';
-  url1='http://localhost:3000/Customer/id';
 
 
   constructor(private http: HttpClient) { }
@@ -15,7 +14,7 @@ export class CustomerService {
   getCustomer(): Observable<any> {
     return this.http.get(this.url);
   }
-  putcustomer( id:any): Observable<any> {
-    return this.http.put(this.url1,id);
-  }
+  // putcustomer( editForm: any): Observable<any> {
+  //   return this.http.put(this.url1,editForm);
+  // }
 }
