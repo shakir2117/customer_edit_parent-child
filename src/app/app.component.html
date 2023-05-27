@@ -1,6 +1,14 @@
 <app-child [customer]="cusedit" (updateCustomer)="onSubmit($event)"></app-child>
-<h2>Customer List</h2>
+<mat-form-field appearance="outline">
+  <mat-label>
+    Search Data
+  </mat-label>
+  <input matInput type="text" (input)="searchcus(search.value)" key #search placeholder="Search">
+</mat-form-field>
+<br>
+<!-- <button mat-button (click)="searchcus(search.value)">Search</button> -->
 
+<h2>Customer List</h2>
 <table>
   <tr>
     <th>No.</th>

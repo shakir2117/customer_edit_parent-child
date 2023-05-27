@@ -12,7 +12,7 @@ export class CustomerService {
   constructor(private http: HttpClient) { }
 
   getCustomer(): Observable<any> {
-    return this.http.get(this.url);
+    return this.http.get(this.url)
   }
   // putcustomer( editForm: any): Observable<any> {
   //   return this.http.put(this.url1,editForm);

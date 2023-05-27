@@ -5,7 +5,7 @@
       <mat-form-field class="example-full-width" appearance="outline">
         <mat-label>name:
         </mat-label>
-        <input type="name" #name matInput formControlName="name"  placeholder="xyz">
+        <input type="name" #name matInput formControlName="name" placeholder="xyz">
         <mat-error *ngIf="editForm.controls['name'].hasError('required')">
           name is <strong>required</strong>
         </mat-error>
